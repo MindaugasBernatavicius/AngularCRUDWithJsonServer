@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "ShoE-a",
+      "count": 150,
+      "price": 9999.9955
+    },
+    {
+      "id": 2,
+      "title": "ShoE&c",
+      "count": 150,
+      "price": 9999.9955
+    },
+    {
+      "id": 3,
+      "title": "Dress",
+      "count": 150,
+      "price": 9999.9955
+    }
+  ]
+}

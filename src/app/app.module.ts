@@ -1,14 +1,40 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppComponent } from './app.component';
+import { AppComponent } from './components/app/app.component';
+import { HeaderComponent } from './components/header/header.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { ProductsComponent } from './components/products/products.component';
+import { ConvertToSpacePipe } from './pipes/convert-to-space.pipe';
+import { HttpClientModule} from '@angular/common/http';
+import { RouterModule } from '@angular/router';
+import { AboutComponent } from './components/about/about.component';
+import { HomeComponent } from './components/home/home.component';
+import { ProductComponent } from './components/product/product.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    FooterComponent,
+    ProductsComponent,
+    ProductsComponent,
+    ConvertToSpacePipe,
+    AboutComponent,
+    HomeComponent,
+    ProductComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule,
+    RouterModule.forRoot([
+      {path: '', component: HomeComponent },
+      {path: 'home', component: HomeComponent },
+      {path: 'products', component: ProductsComponent },
+      {path: 'products/:id', component: ProductComponent },
+      {path: 'about', component: AboutComponent },
+      {path: '**', redirectTo: 'home', pathMatch: 'full' },
+    ])
   ],
   providers: [],
   bootstrap: [AppComponent]
