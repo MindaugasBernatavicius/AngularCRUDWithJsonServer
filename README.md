@@ -7,4 +7,4 @@ To launch:
 - npm install
 - ng serve
 - npm install -g json-server
-- json-server --watch data\db.json 
+- json-server --watch data\db.json (if you are using gitbash or linux use: json-server --watch data/db.json)
