@@ -6,4 +6,5 @@ To launch:
 - git clone https://github.com/MindaugasBernatavicius/SdaJavascriptRemote1AngularWithJsonServer.git
 - npm install
 - ng serve
+- npm install -g json-server
 - json-server --watch data\db.json 
