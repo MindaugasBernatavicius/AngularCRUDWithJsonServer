@@ -1,3 +1,8 @@
 tbody > tr:nth-child(odd) {
-  background: rgba(0,0,0,.03);
+  background: rgba(0, 0, 0, 0.03);
+}
+
+/* We will use css pseudoclass :not() - comma-separated list of one or more selectors as its argument */
+.ng-invalid:not(form).ng-touched {
+  border: 1px solid red;
 }
