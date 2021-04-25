@@ -7,7 +7,7 @@ describe('first test', () => {
   });
 });
 
-xdescribe('second test', () => {
+describe('second test', () => {
   it('should be true', () => {
     expect(true).toBe(true);
   });

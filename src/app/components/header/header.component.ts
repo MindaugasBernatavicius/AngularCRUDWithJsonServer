@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   template: `
  <header>
    <nav class="navbar navbar-expand-md navbar-dark static-top bg-dark">
-     <a class="navbar-brand">Fixed navbar</a>
+     <a class="navbar-brand">Mindaugas App</a>
      <button class="navbar-toggler" type="button"
              data-toggle="collapse"
              data-target="#navbarCollapse"
@@ -44,5 +44,4 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }

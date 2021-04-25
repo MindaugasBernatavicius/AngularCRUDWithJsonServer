@@ -12,6 +12,7 @@ import { AboutComponent } from './components/about/about.component';
 import { HomeComponent } from './components/home/home.component';
 import { ProductComponent } from './components/product/product.component';
 import { FormsModule } from '@angular/forms';
+import { TermsconditionsComponent } from './components/termsconditions/termsconditions.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { FormsModule } from '@angular/forms';
     ConvertToSpacePipe,
     AboutComponent,
     HomeComponent,
-    ProductComponent
+    ProductComponent,
+    TermsconditionsComponent
   ],
   imports: [
     BrowserModule,

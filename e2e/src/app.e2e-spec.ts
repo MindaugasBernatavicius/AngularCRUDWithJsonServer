@@ -10,7 +10,13 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', async () => {
     await page.navigateTo();
-    expect(await page.getTitleText()).toEqual('SdaJavascriptRemoteLt1Angular app is running!');
+    expect(await page.getTitleText()).toEqual('Mindaugas App');
+  });
+
+  it('should display welcome message', async () => {
+    await page.navigateTo();
+    expect(await page.getTitleText()).toEqual('Mindaugas App');
+    await new Promise(r => setTimeout(r, 20000));
   });
 
   afterEach(async () => {

@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AboutComponent } from './about.component';
+import { TermsconditionsComponent } from './termsconditions.component';
 
-describe('AboutComponent', () => {
-  let component: AboutComponent;
-  let fixture: ComponentFixture<AboutComponent>;
+describe('TermsconditionsComponent', () => {
+  let component: TermsconditionsComponent;
+  let fixture: ComponentFixture<TermsconditionsComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ AboutComponent ]
+      declarations: [ TermsconditionsComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AboutComponent);
+    fixture = TestBed.createComponent(TermsconditionsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
@@ -23,7 +23,7 @@ describe('AboutComponent', () => {
     expect(component).toBeTruthy();
   });
 
-  afterEach(() => {
+  afterAll(() => {
     if (fixture.nativeElement && 'remove' in fixture.nativeElement) {
       (fixture.nativeElement as HTMLElement).remove();
     }

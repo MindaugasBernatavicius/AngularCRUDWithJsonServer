@@ -72,6 +72,6 @@ describe('ConvertToSpacePipe', () => {
     let res = pipe.transform(input, charToReplace);
 
     // then
-    expect(res).toBe('Shirt XXL black ');
+    expect(res).toBe('Shirt XXL black');
   });
 });
