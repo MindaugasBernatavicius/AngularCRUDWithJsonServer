@@ -4,7 +4,7 @@ import {Component} from '@angular/core';
   selector: 'app-footer',
   styles: [
     '.footer {\n' +
-    '  position: absolute;\n' +
+    '  position: fixed;\n' +
     '  bottom: 0;\n' +
     '  width: 100%;\n' +
     '  /* Set the fixed height of the footer here */\n' +
