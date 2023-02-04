@@ -1,12 +1,17 @@
 # SdaJavascriptRemoteLt1Angular
 
-This contains the Angular Project develope with Sda Javascript Remote 1 Group.
+### Intro
+This contains the Angular Project developed with Sda Javascript Remote 1 Group.
 
-Attention: you must use node 16.X to launch this succesfully w/o any hacking or modifications. 
+### Requirements
+- node 14 or 16
+- nvm for better management
+- everything else in the package.json
 
-To launch:
+### Launch procedure:
 - git clone https://github.com/MindaugasBernatavicius/SdaJavascriptRemote1AngularWithJsonServer.git
 - cd SdaJavascriptRemote1AngularWithJsonServer
+- nvm use $(cat .nvmrc)
 - npm install
 - ng serve
 - npm install -g json-server
