@@ -13,6 +13,6 @@ This contains the Angular Project developed with Sda Javascript Remote 1 Group.
 - cd SdaJavascriptRemote1AngularWithJsonServer
 - nvm use $(cat .nvmrc)
 - npm install
-- ng serve
+- npm start
 - npm install -g json-server
 - json-server --watch data\db.json (if you are using gitbash or linux use: json-server --watch data/db.json)
