@@ -4,7 +4,7 @@
 This contains the Angular Project developed with Sda Javascript Remote 1 Group.
 
 ### Requirements
-- node 14 or 16
+- node v14 or v16
 - nvm for better management of multiple node versions
 - everything else in the package.json
 
